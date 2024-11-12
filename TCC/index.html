@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Infotec-es</title>
+    <style>
+        /* Estilos CSS serão adicionados aqui */
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div id="logo">
+            <img  src="https://i.ibb.co/18Z4vZN/LOGOINFOTEC-removebg-preview.png"
+            alt="LOGOINFOTEC-removebg-preview" border="0"><p id="info">INFOTECH-ES</p>
+        </div>
+        
+        <button type="button" id="btn1" name="login">Login</button>
+        <button type="button" id="btn2" name="Anuncio">Anuncie sua empresa</button>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+    <section>
+        <div id="popup">
+            <div id="conteudopopup">
+                <span class="close" id="closePopup">&times;</span>
+                <h1 id="pop">Faça seu login ou cadastre-se</h1>
+                <div id="areainput">
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                </div>
+                 <button type="button" name="login" id="login" onclick="salvarDados()">Login</button>
+            </div>
+        </div>
+
+        <div id="tv">
+            
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
